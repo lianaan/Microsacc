@@ -1,7 +1,7 @@
 # Microsacc
 Processing and preparation of eye traces for microsaccade analysis
 
-The resulting output from the last script `prep_for_BMD_and_preprocess.m` is a `.txt` file that is ready to be run with the [Bayesian microsaccade detection algorithm](https://github.com/basvanopheusden/bmd), directly as input to `./bmd`
+The resulting output from the last script `prep_for_BMD_and_preprocess.m` is a `.txt` file, here, `S1_ORI10_BMD.txt` that is ready to be run with the [Bayesian microsaccade detection algorithm](https://github.com/basvanopheusden/bmd), directly as input to `./bmd`
 
 
 ## Data 
