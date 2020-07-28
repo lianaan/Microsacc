@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-for file in *.txt; do
+for file in *_parsed.txt; do
   awk '/Trial Start/ { show=1 } show; /Response ON/ { show=0 }' "$file" >> "${file%.txt}_A.txt"
 done
 
