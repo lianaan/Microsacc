@@ -31,9 +31,9 @@ for l  =  1%:length(ListE) % loop over participants
         cond = condE{c};
         
         
-        ts1 = dlmread(sprintf('%s%s%s',par,cond,'_A2TT.txt'));  % delay1, stim and delay 2
-        ts5 = dlmread(sprintf('%s%s%s',par,cond,'_A5TT.txt'));
-        ts5R = dlmread(sprintf('%s%s%s',par,cond,'_A5TT.txt'));
+        ts1 = dlmread(sprintf('%s%s%s',par,cond,'_parsed_A2TT.txt'));  % delay1, stim and delay 2
+        ts5 = dlmread(sprintf('%s%s%s',par,cond,'_parsed_A5TT.txt'));
+        ts5R = dlmread(sprintf('%s%s%s',par,cond,'_parsed_A5TT.txt'));
         
         
         [lia1, loc1] = ismember(ts5R(:,2), ts1(:,2));
@@ -42,7 +42,7 @@ for l  =  1%:length(ListE) % loop over participants
         ts5  =  ts5(loc5,:);
         
         
-        matr  =  dlmread(sprintf('%s%s%s',par,cond,'_A_B_C_D.txt'));
+        matr  =  dlmread(sprintf('%s%s%s',par,cond,'_parsed_A_B_C_D.txt'));
         
         
         matr(:,2)  =  (matr(:,2)-screen_fixposxy(1))/screen_ppd;
