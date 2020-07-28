@@ -5,7 +5,7 @@ The resulting output from the last script `prep_for_BMD_and_preprocess.m` is a `
 
 
 ## Data 
-Sample data of one condition from one participant from  [Mihali et al, 2018](https://www.mitpressjournals.org/doi/abs/10.1162/cpsy_a_00018), who performed the task verion with eye-tracking.  
+Sample data of one condition from one participant from  [Mihali et al, 2018](https://www.mitpressjournals.org/doi/abs/10.1162/cpsy_a_00018), who performed the task version with eye-tracking.  
  
 
 
